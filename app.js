@@ -23,9 +23,12 @@ app.get('/', function(req, res) {
 });
 
 app.get('/test', function(req, res) {
-  res.render('test.html', { });
+  res.render('index.html', { });
 });
 
+app.get('/calc', function(req, res) {
+  res.render('calc.html', { });
+});
 ///////////////////////////////////////////////////////////////////////////////
 // RUN CONFIGURATION                                                         //
 ///////////////////////////////////////////////////////////////////////////////
