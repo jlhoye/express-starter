@@ -129,14 +129,14 @@ $(function() {
   $('#square').click(function() {
     var outputText = $('#output').text();
     var outputNum = parseFloat(eval(outputText));
-    var newNum = Math.pow(outputNum);
+    var newNum = ^2(outputNum);
     $('#output').text(newNum);
   });
 
   $('#equals').click(function() {
     var outputText = $('#output').text();
     var outputNum = parseFloat(eval(outputText));
-    var res = eval('4*10+7');
+    var res = eval(outputNum);
     $('#output').text(res);
   });
 
